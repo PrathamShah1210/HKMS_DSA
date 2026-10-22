@@ -1,0 +1,26 @@
+# ===== Backend =====
+backend/target/
+backend/hkms.db
+backend/*.db
+
+# ===== Frontend =====
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ===== Maven local repo =====
+.m2/
+
+# ===== OS / IDE =====
+.DS_Store
+**/.DS_Store
+*.iml
+.idea/
+.vscode/
+*.class
+*.log
+
+# ===== Environment =====
+.env
+.env.local
+.env.*.local
